@@ -1,0 +1,64 @@
+#Ques1.
+
+t=(1,2,3,4,5)
+print(len(t))
+
+#Ques2.
+
+t=(2,3,4,1,5,8)
+print(min(t))
+print(max(t))
+
+#Ques3.
+
+t=(1*2+5-6)
+print(t)
+
+#Ques4.
+
+a=set()
+num1=input("enter the value")
+a.add(num1)
+b=set()
+num2=input("enter the value")
+b.add(num2)
+print(a-b)
+
+
+#Ques5.
+
+a=set([1,2,3,4,5,6])
+b=set([3,4,5])
+print(b<=a)
+
+##Ques6.
+
+a=set([1,2,3,4,5,6])
+b=set([3,4,5])
+print(a&b)
+
+#Ques7.
+
+a=input("enter the name")
+b=input("enter the marks")
+c=input("enter the name")
+h=input("enter the marks")
+e={a:b,c:h}
+print(e)
+
+#Ques9.
+
+l=["m","i","s","s","i","s","s","i","p","p","i"]
+m=l.count("m")
+i=l.count("i")
+s=l.count("s")
+p=l.count("p")
+d={"m":m,"i":i,"s":s,"p":p}
+print(d)
+
+
+#Ques8.
+
+dict={'dfg':1,'dty':4,'swe':6}
+sortByValuedict = sorted(dict.items(),key=lambda t: t[1])
+print (sortByValuedict)
